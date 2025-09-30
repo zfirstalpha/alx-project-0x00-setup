@@ -9,6 +9,7 @@ const Landing: React.FC = () => {
 
       {/* Buttons with different shapes and sizes */}
       <Button title="Small Rounded" styles="rounded-sm text-sm" />
+      <Button title="Lg Button" styles="rounded-lg "/>
       <Button title="Medium Rounded" styles="rounded-md text-base" />
       <Button title="Large Rounded" styles="rounded-full text-lg" />  {/* rounded-full satisfies checker */}
 
