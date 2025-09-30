@@ -4,5 +4,5 @@ export interface PillProps {
 
 export interface ButtonProps {
   title: string
-  styles?: string // changed from className to styles
+  styles: string   // must be exactly "styles: string", not optional
 }
